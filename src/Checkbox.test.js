@@ -8,9 +8,7 @@ const log = ( ...args ) => console.__proto__.log.call( console, ...args );
 describe( 'Checkbox', () => {
 	it( 'should render the checkbox', () => {
 		const { container } = render( <Checkbox /> );
-		log( 'container', container );
-		expect( 1 ).toBe( 1 );
-		// expect( container ).toMatchSnapshot();
+		expect( container ).toMatchSnapshot();
 	} );
 
 	// it( 'should work as a controlled input', () => {
