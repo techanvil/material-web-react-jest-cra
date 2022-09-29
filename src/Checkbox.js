@@ -3,6 +3,7 @@
  */
 import "@material/web/checkbox/checkbox";
 import PropTypes from "prop-types";
+import React from "react";
 
 /**
  * WordPress dependencies
